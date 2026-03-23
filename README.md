@@ -45,6 +45,7 @@ This project provides a structured approach to handling sensitive data by integr
 ---
 
 ## Project Structure
+```
 PII/
 ├── main.py
 ├── requirements.txt
@@ -58,7 +59,7 @@ PII/
 │ └── utils/
 ├── data/
 ├── tests/
-
+```
 ---
 
 ## Installation
@@ -68,6 +69,7 @@ git clone https://github.com/your-username/pii-detection-tool.git
 cd pii-detection-tool
 pip install -r requirements.txt
 streamlit run main.py
+```
 
 ## Usage
 
@@ -116,7 +118,7 @@ streamlit run main.py
 
 ```bash
 pytest tests/
-
+```
 ---
 ## License
 
